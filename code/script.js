@@ -100,9 +100,7 @@ const fetchForecast = () => {
       filteredFiveDays.forEach((item) => {
         fiveDayForecastContainer.innerHTML += `
         <div class="weekday-row">
-        <div class="forecast-content" id="week-day">${new Date(item.dt_txt).toLocaleDateString("en-US", {
-          weekday: "short",
-        })}
+        <div class="forecast-content" id="week-day">${new Date(item.dt * 1000).toLocaleDateString("en-US", { weekday: "short" })}
         </div>
         <div class="forecast-content" id="emoji"> <img src = "${emojiObject[item.weather[0].main]}"></div>
         
