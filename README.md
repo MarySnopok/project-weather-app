@@ -17,7 +17,7 @@ If we had more time we would use the [Geolocation](https://www.w3schools.com/htm
 
 ## View it live
 
-[Tiger Group 1 Weather App](https://tiger-weather.netlify.app/)
+[Tiger Group 1 Weather App] https://weather-app-mob-programming.netlify.app
 
 /
 Lousanne Lundström
